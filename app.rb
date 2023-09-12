@@ -6,6 +6,19 @@ get("/howdy") do
   erb(:hello)
 end
 
+get("/goodbye")do
+  erb(:bye)
+end
+
+
+get("/square/new") do
+  erb(:new_square_calc)
+end
+
+get("/square/results")do
+  erb(:square_results)
+end
+
 get("/") do
   "
   <h1>Welcome to your Sinatra App!</h1>
@@ -13,15 +26,11 @@ get("/") do
   "
 end
 
+get("/square_root/new") do
+end
 
-# get("/square") do
-# end
+get("/payment/new") do  
+end
 
-# get("/square_root") do
-# end
-
-# get("/payment") do  
-# end
-
-# get("/random") do
-# end
+get("/random/new") do
+end
