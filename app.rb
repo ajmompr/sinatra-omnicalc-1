@@ -40,5 +40,8 @@ end
 get("/payment/new") do  
 end
 
+get("/payment/results") do
+end 
+
 get("/random/new") do
 end
