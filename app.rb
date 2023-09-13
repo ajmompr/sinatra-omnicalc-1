@@ -10,6 +10,12 @@ get("/goodbye")do
   erb(:bye)
 end
 
+get("/") do
+  "
+  <h1>Welcome to your Sinatra App!</h1>
+  <p>Define some routes in app.rb</p>
+  "
+end
 
 get("/square/new") do
   erb(:new_square_calc)
@@ -21,14 +27,8 @@ get("/square/results")do
   erb(:square_results)
 end
 
-get("/") do
-  "
-  <h1>Welcome to your Sinatra App!</h1>
-  <p>Define some routes in app.rb</p>
-  "
-end
-
 get("/square_root/new") do
+  erb(:new_sqrt_calc)
 end
 
 get("/payment/new") do  
