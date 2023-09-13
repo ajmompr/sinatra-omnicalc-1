@@ -60,5 +60,6 @@ get("/random/new") do
   erb(:new_rand_calc)
 end
 
-get("random/results") do
+get("/random/results") do
+  erb(:rand_results)
 end
