@@ -57,6 +57,7 @@ get("/payment/results") do
 end 
 
 get("/random/new") do
+  erb(:new_rand_calc)
 end
 
 get("random/results") do
