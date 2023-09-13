@@ -58,3 +58,6 @@ end
 
 get("/random/new") do
 end
+
+get("random/results") do
+end
